@@ -23,5 +23,5 @@ lst=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(lst)
 x=input("Choose a person from the list to replace=>").strip()
 y=input("Enter the replacement=>").strip
-lst[x]= y
+y=lst[x]
 print(lst)
