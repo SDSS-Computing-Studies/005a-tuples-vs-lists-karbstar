@@ -25,4 +25,11 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-
+tr=True
+x=input("enter a fruit from the list=>")
+while tr == True:
+    if x in fruit:
+        fruit.remove(x)
+    else:
+        tr=False
+        print(fruit)
