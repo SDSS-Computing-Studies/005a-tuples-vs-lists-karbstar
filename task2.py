@@ -23,7 +23,7 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-lst=['']
+lst=[]
 x=(input("enter a word=>")).strip()
 y=(input("enter a word=>")).strip()
 z=(input("enter a word=>")).strip()
