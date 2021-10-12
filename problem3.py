@@ -28,7 +28,7 @@ lst=[]
 y=0
 while tim == True:
     x=int(input("enter a number=>"))
-    if x > y :
+    if x >= y :
         lst.append(x)
     else:
         tim=False
