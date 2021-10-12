@@ -32,7 +32,6 @@ while tim == True:
         lst.append(x)
     else:
         tim=False
-        print(lst)
         d=max(lst)
         print(f"The largest number you entered is {d}")
 
