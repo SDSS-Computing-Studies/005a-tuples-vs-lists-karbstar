@@ -24,13 +24,16 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 tim=True
-lst=['']
+lst=[]
+y=0
 while tim == True:
     x=int(input("enter a number=>"))
-    if x > 0 :
+    if x > y :
+        print(x,y)
         lst.append(x)
     else:
         tim=False
+        print(lst)
         d=max(lst)
         print(f"The largest number you entered is {d}")
 

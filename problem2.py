@@ -29,7 +29,11 @@ tr=True
 x=input("enter a fruit from the list=>")
 while tr == True:
     if x in fruit:
-        fruit.remove(x)
-    else:
+        while x in fruit:
+            fruit.remove(x)
+        print(fruit)
         tr=False
+    else:
+        fruit.append(x)
+        print("word not in list")
         print(fruit)
